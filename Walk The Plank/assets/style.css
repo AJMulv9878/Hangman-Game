@@ -1,0 +1,138 @@
+html {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1440px;
+}
+
+.page-header {
+	margin-left: 480px;
+	margin-right: 480px;
+	margin-bottom: 25px;
+	text-align: center;
+	position: relative;
+	min-width: 850px;
+	color: black;
+	font-family: 'Macondo Swash Caps', cursive;
+	font-size: 100px;
+}
+
+.screen {
+	background-image: url("images/paper.png");
+	background-size: 100% 100%;
+	min-width: 900px;
+	max-width: ;
+	margin-left: 480px;
+	margin-right: 480px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.instruction {
+	min-width: 850px;
+	height: 160px;
+	margin-left: ;
+	margin-right: ;
+	text-align: center;
+	background-size: 100%;
+	color: black;
+	padding: 10px 25px 15px 25px;
+	font-size: 20px;
+}
+
+p {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.score-words-container {
+	min-width: 850px;
+	max-height: 100px;
+	margin-left: ;
+	margin-right: ;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+
+.win-loss-container {
+	width: 20%;
+	height: 100px;
+	display:inline-block;
+	text-align: right;
+}
+
+.win {
+	display:inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.loss {
+	display:inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.previous-words {
+	display:inline-block;
+	height: 100px;
+	width: 60%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.word-container1 {
+	display:inline-block;
+	width: 45%;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.word-container2 {
+	display:inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.main-container {
+
+	min-width: 850px;
+	max-width: ;
+	height: 500px;
+	margin-left: ;
+	margin-right: ;
+	background-image: url();
+	background-size: 100% 500px;
+	color: black;
+	font-size: 18px;
+}
+
+#game-container {
+	padding-top: 35px;
+	text-align: center;
+}
+
+.letters-attempts {
+	padding-top: 30px;
+}
+
+#letters {
+	display:inline-block;
+	width: 60%;
+	padding-left: 80px;
+}
+
+#attempts {
+	display:inline-block;
+	text-align: center;
+	width: 30%;
+}
+
+#hint {
+	text-align: center;
+}
+
+.skull {
+	width: 150px;
+	opacity: 0;
+}
